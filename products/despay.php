@@ -365,36 +365,31 @@ h1 {
 
 </style>
 <body> 
-<nav style="background-color: black; padding: 0px;">
-    <div class="container" style="display: flex; align-items: center;">
-        <div class="logo-container" style="margin-left: -80px; margin-top:-20px;">
-            <img src="../media/11.webp" alt="Logo" style="max-width: 100px;">
+<nav>
+        <div class="logo-container">
+            <img src="../media/6.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
         </div>
-        <div style="display: flex; align-items: center;">
-            <ul class="nav-links" style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center;">
-                <li style="margin-right: 5px;"><a href="../backups/logistic.php" style="margin-top:-50px;text-decoration: none; background-color: white; color: black; padding: 3px 5px; font-size: 30px;">Logistics</a></li>
-                <li><a href="../public/user/sale.php" style="margin-top:-90px;text-decoration: none; background-color: white; color: black; padding: 3px 5px; font-size: 30px;">Sale</a></li>
-            </ul>
-            <div class="button-container" style="margin-left: 5px;">
-                <a href="../public/user/reset.php" class="btn btn-primary" style="margin-right:-20px;margin-top:-20px;text-decoration: none; background-color: white; color: black; padding: 3px 5px; font-size: 10px;">Reset</a>
-                <a href="../public/user/logout.php" class="btn btn-danger" style="margin-right:-20px; margin-top:-20px; text-decoration: none; background-color: white; color: black; padding: 3px 5px; font-size: 20px;">Log out</a>
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#cartModal" style="margin-right:-70px;margin-top:-20px;background-color: white; color: black; padding: 3px 5px; font-size: 20px;">View Cart</button>
-            </div>
+                <ul class="nav-links">
+                    <li><a href="../backups/logistic.php">logistics</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+        <div style="text-align: center;">
+            <a href="../public/user/reset.php" class="btn btn-warning" style="border-color: black;">Reset Password</a>
+            <a href="../public/user/logout.php" class="btn btn-danger mr-3" style="border-color: black;">Log-out</a>
+            <a href="../products/despay.php" class="btn btn-primary">Back to Products</a>
         </div>
-    </div>
 </nav>
-
 
 
 
             </nav>
             <hr>
             <div class="slideshow-container">
-        <img class="slides fade" src="../media/66.webp" alt="Image 1">
-        <img class="slides fade" src="../media/22.webp" alt="Image 2">
-        <img class="slides fade" src="../media/33.webp" alt="Image 3">
-        <img class="slides fade" src="../media/44.webp" alt="Image 4">
-        <img class="slides fade" src="../media/55.webp" alt="Image 5">
+        <img class="slides fade" src="../media/1.webp" alt="Image 1">
+        <img class="slides fade" src="../media/2.webp" alt="Image 2">
+        <img class="slides fade" src="../media/3.webp" alt="Image 3">
+        <img class="slides fade" src="../media/4.webp" alt="Image 4">
+        <img class="slides fade" src="../media/5.webp" alt="Image 5">
         <div class="navigation">
             <button onclick="prevSlide()">Prev</button>
             <button onclick="nextSlide()">Next</button>
